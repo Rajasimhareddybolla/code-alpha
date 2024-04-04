@@ -1,0 +1,254 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a; /* Dark background */
+  color: #fff; /* Light text color */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #333; /* Darker header background */
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Section Styles */
+section {
+  padding: 50px 0;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  color: #fff; /* Light section titles */
+}
+
+section p {
+  color: #ccc; /* Light section text */
+}
+
+/* Contact Form Styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #555; /* Dark form border */
+  border-radius: 5px;
+  background-color: #333; /* Dark form background */
+  color: #fff; /* Light form text */
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #555; /* Dark button background */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #777; /* Darker button background on hover */
+}
+
+/* Project Styles */
+.project {
+  background-color: #333; /* Dark project background */
+  border: 1px solid #555; /* Darker border */
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Adjusted shadow color */
+}
+
+.project h3 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.project p {
+  color: #ccc;
+}
+
+.project .btn {
+  display: inline-block;
+  background-color: #555; /* Dark button background */
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.project .btn:hover {
+  background-color: #777; /* Darker button background on hover */
+}
+
+/* Gallery Styles */
+#gallery .container {
+
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+#gallery .container .gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2); /* Adjusted shadow color */
+}
+
+#gallery .container .gallery img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2); /* Adjusted shadow color */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333; /* Dark footer background */
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background: #100f0f; /* Change this to your preferred background color */
+        padding: 20px;
+    }
+    .gallery img {
+        margin: 10px;
+        max-width: 200px; /* Change this to your preferred image width */
+    }
+
+  
+  .gallery {
+      flex: 1;
+      margin-right: 20px;
+  }
+  
+  .preview {
+      flex: 1;
+  }
+  .resume-preview .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 4%;
+    text-align: center;
+    font-family: arial;
+    background: linear-gradient(to right, #4c7d80, #94a2c1); /* Gradient background */
+    color: #fff;
+    transition: transform 0.3s ease; /* Add transition */
+}
+
+.resume-preview .card:hover {
+    transform: scale(1.02); /* Add hover effect */
+}
+
+.resume-preview .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.resume-preview .description {
+    padding: 15px;
+    height: 80%;
+}
+
+.resume-preview .btn {
+    background-color: #ff5e62; /* Button color */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Add transition */
+    margin-top: 20px;
+}
+
+.resume-preview .btn:hover {
+    background-color: #ff9966; /* Hover color */
+}
+#skills {
+  background-color: inherit;
+  padding: 20px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+#skills .container {
+  max-width: 800px;
+  margin: auto;
+}
+
+#skills h2 {
+  color: #ff5e62;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+#about {
+  background-color: inherit;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+#about .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#about h2 {
+  font-size: 2em;
+  text-align: center;
+  color: #a14f4f;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 20px;
+}
