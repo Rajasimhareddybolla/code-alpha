@@ -252,3 +252,9 @@ footer {
   color: #666;
   margin-bottom: 20px;
 }
+kbd{
+  size: 1.2%;
+  color: red;
+  padding: 2px;
+  margin: 4px;
+}

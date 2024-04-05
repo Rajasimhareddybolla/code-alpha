@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body style="display: flex;">
+    <div class="container">
+        <h2>Expense Tracker</h2>
+        <div style="display: flex;">
+            <form id="expense-form"  enctype="multipart/form-data">
+                <label for="expense-name">Expense Name:</label>
+                <input type="text" id="expense-name" required>
+                <label for="expense-amount">Amount:</label>
+                <input type="number" id="expense-amount" required>
+                <label for="expense-note">Note:</label>
+                <textarea id="expense-note"></textarea>
+                <label for="expense-image">Image:</label>
+                <input type="url" id="expense-image" style="border-radius: 5px;">
+                <hr>
+                <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+            </form>
+            <div style=" padding-right :50px">
+                <img src="data:image/jpeg;base64,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">
+                </div>
+        </div>
+        <div id="total-billing"></div>
+    </div>
+    <div>
+        <ul id="expense-list" ></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    overflow-y:hidden;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+label {
+    flex: 1 1 100%;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+button {
+    width: calc(50% - 5px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    width: 100%;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.expense-item {
+
+    width: 300px;
+    height: 200px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+
+.expense-item button{
+    margin: 30px;
+    background-color: inherit;
+    color: whitesmoke;
+    width: min-content;
+    height: min-content;
+}
+.expense-item button:hover {
+    width: min-content;
+    color: #333;
+}
+
+#total-billing {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+.expense-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Previous styles are retained */
+
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* Other styles are retained */
+
+.delete-btn{
+    text-emphasis: none;
+    font-size: small;
+    font-style: oblique;
+}
+.raja{
+
+}
+.raja >*{
+    padding: 2px;
+}
+#submit{
+    width: min-content;
+    margin: 10px;
+}
+#expense-image{
+    width: 25rem;
+}
